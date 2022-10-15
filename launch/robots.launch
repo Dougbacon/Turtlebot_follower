@@ -1,0 +1,20 @@
+<launch>
+
+  <!-- BEGIN ROBOT 1-->
+  <group ns="leader">
+    <param name="tf_prefix" value="leader_tf" />
+    <include file="$(find multi_robot)/launch/marker_robot.launch" >
+      <arg name="init_pose" value="-x 0 -y 0 -z 0" />
+      <arg name="robot_name"  value="leader" />
+    </include>
+  </group>
+
+  <!-- BEGIN ROBOT 2-->
+  <group ns="follower">
+    <param name="tf_prefix" value="follower_tf" />
+    <include file="$(find multi_robot)/launch/follower_robot.launch" >
+      <arg name="init_pose" value="-x -0.75 -y 0 -z 0" />
+      <arg name="robot_name"  value="Follower" />
+    </include>
+  </group>
+</launch>
