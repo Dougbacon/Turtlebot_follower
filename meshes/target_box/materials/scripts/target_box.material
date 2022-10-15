@@ -1,0 +1,14 @@
+material target_box/Diffuse
+{
+  technique
+  {
+    pass
+    {      
+      texture_unit
+      {
+        texture marker.jpg
+
+      }            
+    }
+  }
+}
