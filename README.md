@@ -14,7 +14,7 @@ The aim of our project is to set up a simulated environment where we place two t
 -ROBOTIS-GIT Turtlebot3 simulations - https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git 
 
 ## Running the project 
-#Installing turtlebot simulations 
+# Installing turtlebot simulations 
 1. Clone and build repositories into catkin workspace 
 - open a new terminal 
 cd ~/catkin_ws/src/
@@ -25,13 +25,13 @@ cd ~/catkin_ws
 catkin_make 
 source devel/setup.bash
 
-#Installing follower environment
+# Installing follower environment
 1. Clone the mulit_robot repository to the /src directory of your catkin workspace
 - Open a new terminal 
 cd ~/catkin_ws/src/
 git clone https://github.com/Dougbacon/multi_robot
 
-#Running the project 
+# Running the project 
 1. Ensure you have the correct repositories as listed above 
 2. Open new terminal
 3. Run command "roslaunch multi_robot main.launch
@@ -43,7 +43,7 @@ git clone https://github.com/Dougbacon/multi_robot
 - press c until the angular speed “turn” is ~ 0.5
 8. Use "ijkl" to control the leader robot 
 
-#Collaborators
+# Collaborators
 - Reamy Muong
 - Yu Yang
 - Douglas Bacon
