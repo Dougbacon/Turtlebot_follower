@@ -16,14 +16,14 @@ The aim of our project is to set up a simulated environment where we place two t
 ## Setting up the project
 # Installing turtlebot simulations (if not previously installed)
 1. Clone and build repositories into catkin workspace 
-- open a new terminal 
-cd ~/catkin_ws/src/
-git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
-git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
-git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
-cd ~/catkin_ws 
-catkin_make 
-source devel/setup.bash
+- open a new terminal,copying the whats within the "" into the terminal  
+- "cd ~/catkin_ws/src/"
+- "git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git"
+- "git clone https://github.com/ROBOTIS-GIT/turtlebot3.git"
+- "git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git"
+- "cd ~/catkin_ws"
+- "catkin_make" 
+- "source devel/setup.bash"
 
 # Installing follower environment
 1. Clone the mulit_robot repository to the /src directory of your catkin workspace
