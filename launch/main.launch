@@ -9,9 +9,9 @@
     
  
 
-  <!-- start world -->
+  <!-- start custom world -->
   <node name="gazebo" pkg="gazebo_ros" type="gazebo" 
-   args="$(find turtlebot3_gazebo)/worlds/empty.world" respawn="false" output="screen" />
+   args="$(find multi_robot)/world/world.world" respawn="false" output="screen" />
 
   <!-- start gui -->
   <!--node name="gazebo_gui" pkg="gazebo" type="gui" respawn="false" output="screen"/-->
