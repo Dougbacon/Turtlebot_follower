@@ -38,7 +38,7 @@ The aim of our project is to set up a simulated environment where we place two t
 2. Open new terminal
 3. Run command "roslaunch multi_robot main.launch"
 4. Open matlab and run xxxxxx 
-5. Add the matlab folder to your path 
+5. Add the multi_robot folder and sub folders to your path 
 6. Open a new terminal 
 7. Run command "rosrun teleop_twist_keyboard teleop_twist_keyboard.py /cmd_vel:=/leader/cmd_vel"
 8. Adjust the velocity of the leader robot;
