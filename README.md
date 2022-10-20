@@ -28,13 +28,13 @@ The aim of our project is to set up a simulated environment where we place two t
 # Installing follower environment
 1. Clone the mulit_robot repository to the /src directory of your catkin workspace
 - Open a new terminal 
-cd ~/catkin_ws/src/
-git clone https://github.com/Dougbacon/multi_robot
+- "cd ~/catkin_ws/src/"
+- "git clone https://github.com/Dougbacon/multi_robot"
 
 # Running the project 
 1. Ensure you have the correct repositories as listed above 
 2. Open new terminal
-3. Run command "roslaunch multi_robot main.launch
+3. Run command "roslaunch multi_robot main.launch"
 4. Open matlab and run xxxxxx 
 5. Open a new terminal 
 6. Run command "rosrun teleop_twist_keyboard teleop_twist_keyboard.py /cmd_vel:=/leader/cmd_vel"
@@ -44,8 +44,8 @@ git clone https://github.com/Dougbacon/multi_robot
 8. Use "ijkl" to control the leader robot 
 
 # Collaborators
-- Reamy Muong
-- Yu Yang
-- Douglas Bacon
+- Reamy Muong (40%)
+- Yu Yang (30%)
+- Douglas Bacon (30%)
 
 
