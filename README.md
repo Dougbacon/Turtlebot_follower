@@ -5,9 +5,11 @@ The aim of our project is to set up a simulated environment where we place two t
 
 ## Requirements
 # System 
-- Ubuntu 18.04
-- ROS Melodic or Noetic 
-- MATLAB 2022a
+1. Ubuntu 18.04
+2. ROS Melodic or Noetic 
+3. MATLAB 2022a
+- ROS Toolbox
+- Robotics System Toolbox
 # Dependencies
 -ROBOTIS-GIT Turtlebot3 msgs - https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
 -ROBOTIS-GIT Turtlebot3 - https://github.com/ROBOTIS-GIT/turtlebot3
