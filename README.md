@@ -13,9 +13,9 @@ The aim of our project is to set up a simulated environment where we place two t
 - Image Processing Toolbox
 - Computer Vision Toolbox 
 # Dependencies
--ROBOTIS-GIT Turtlebot3 msgs - https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
--ROBOTIS-GIT Turtlebot3 - https://github.com/ROBOTIS-GIT/turtlebot3
--ROBOTIS-GIT Turtlebot3 simulations - https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git 
+- ROBOTIS-GIT Turtlebot3 msgs - https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+- ROBOTIS-GIT Turtlebot3 - https://github.com/ROBOTIS-GIT/turtlebot3
+- ROBOTIS-GIT Turtlebot3 simulations - https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git 
 
 ## Setting up the project
 # Installing turtlebot simulations (if not previously installed)
