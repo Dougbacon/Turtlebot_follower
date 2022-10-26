@@ -38,7 +38,7 @@ The aim of our project is to set up a simulated environment where we place two t
 # Running the project 
 1. Ensure you have the correct repositories as listed above 
 2. Open new terminal
-3. Run comman "source ~/.bashrc"
+3. Run command "source ~/.bashrc"
 4. Run command "roslaunch multi_robot main.launch"
 5. Open matlab and add the multi_robot folder and sub folders to your path
 6. Open Matlab folder within the multi_robot folder
